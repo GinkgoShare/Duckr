@@ -24,6 +24,8 @@ __Redux Schema__
     isOpen,
   }
   ducks: {
+    isFetching,
+    error,
     [duckId]: {
       lastUpdated,
       info: {
@@ -37,7 +39,7 @@ __Redux Schema__
       }
     }
   },
-  userDucks: {
+  usersDucks: {
     isFetching,
     error,
     [uid]: [

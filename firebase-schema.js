@@ -48,4 +48,5 @@ __Firebase Schema__
 /usersLikes
   uid
     duckId: true
+    
 */
