@@ -127,7 +127,8 @@
 
 {
   type: REMOVE_REPLY,
-  replyId
+  replyId,
+  duckId
 }
 
 // likeCount

@@ -56,8 +56,8 @@ __Redux Schema__
     isFetching,
     error,
     [duckId]: {
+      lastUpdated,
       replies: {
-        lastUpdated,
         [replyId]: {
           name,
           comment,
